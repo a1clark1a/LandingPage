@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <main>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Landing Page</title>
+            <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet"/>
+            <link href="LP.css" rel="stylesheet"/>
+        </head>
+        <header>
+            <div id="bar"></div>
+            <div class="headerContainer" id="home">
+                <div id="logoContainer">
+                    <a href="https://codepen.io/a1clark1a/full/mNJepX" target="_blank">
+                        <img id="logoImg" src="https://static.wixstatic.com/media/ed2e53_973c08f755d44796bb6a61eb3840cf97~mv2_d_3000_1752_s_2.png" alt="PerfectoGamesLogo"/>
+                    </a>
+                </div>
+
+                <div id="navBox">
+                    <nav id="navBar">
+                        <ul id="navList">
+                            <li class="dropdown"><a class="nav_Link drop_Btn" href="#home">Home</a>
+                                <div class="dropdown_Content">
+                                    <a href="#about">About</a>
+                                    <a href="#mediaDemo">Media Demo</a>
+                                </div>
+                            </li>
+                            <li><a class="nav_Link" href="#about">About</a></li>
+                            <li><a class="nav_Link" href="#mediaDemo">Media Demo</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <div id="mainBox">
+            <div id="backgroundBox"></div>
+
+            <div id="productBox">
+                <h2><a id="gameInfo" href="" target="_blank">CLICK HERE TO DOWNLOAD</a></h2>
+                <div id="formBox">
+                    <form id="emailSub" action="">
+                        <input id="email" name="email" type="email" placeholder="Enter your email address" required/>
+                        <input id="submit" type="submit" value="Get into the mailing list" clss="btn" />
+                    </form>
+                </div>
+
+                <div id="linksContainer">
+                    <div class="linkBox">
+                        <a href="https://github.com/a1clark1a?tab=repositories" target="_blank">
+                            <img class="linksImg" src="https://static.wixstatic.com/media/ed2e53_ea9086b9c66a4f4e9dfa5d5481e9164d~mv2.png" alt="github"/>
+                        </a>
+                    </div>
+
+                    <div class="linkBox">
+                        <a href="https://www.linkedin.com/in/anthony-clark-perfecto-63a341133/" target="blank">
+                            <img class="linksImg" src="http://www.transparentpng.com/thumb/linkedin/linkedin-shiny-icon-png-0.png" alt="LinkedIn"/>
+                        </a>
+                    </div>
+
+                    <div class="linkBox">
+                            <a href="https://app.pluralsight.com/profile/a1clark1a" target="_blank">
+                            <img class="linksImg" src="https://static.wixstatic.com/media/ed2e53_2e52f645bc69446da2d6e395b1d1c3a0~mv2.png" alt="PluralSight"/>
+                        </a>
+                    </div>
+
+                    <div class="linkBox">
+                        <a href="https://codepen.io/a1clark1a/" target="blank">
+                            <img class="linksImg" src="https://static.wixstatic.com/media/ed2e53_39d44b435ac3420381df515e8a4c3aab~mv2.png" alt="CodePen"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+       
+
+            <div id="about" class="flex_Box">
+                <div class="child_Box">
+                    <h2>ABOUT</h2>
+                    <p>Shadowbot is a 2d-Sidescroller shooter game made in Unreal Engine 4. 
+                        You take on the role of Shadowbot, a highly advanced cyborg soldier who's racing against time to save the world from the invasion of the machines.
+                    </p>
+                </div>
+            </div>
+
+            <div id="mediaDemo" class="flex_Box">
+                    <div class="child_Box">
+                        <h2>MEDIA DEMO</h2>
+                        <iframe id="video" width="962" height="541" src="https://www.youtube.com/embed/2zBIxi9SNh8"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="ShadowBot Demo">        
+                        </iframe>
+                    </div>
+            </div>
+        </div>
+
+        <footer>
+            <span id="copyright">Copyright 2019, PerfectoGames <br>All Rights Reserved</span>
+        </footer>
+    </main>
+</html>
